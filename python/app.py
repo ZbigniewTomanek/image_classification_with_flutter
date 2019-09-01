@@ -5,10 +5,10 @@ from classification import classify
 
 
 __firebase_config = {
-        "apiKey": " AIzaSyDeUkxRY1rUCrM2p7Z4H4Xpdy7dIx-d_d8 ",
-        "authDomain": "image-classification-2c2b3.firebaseapp.com",
-        "databaseURL": "image-classification-2c2b3.firebaseio.com",
-        "storageBucket": "image-classification-2c2b3.appspot.com"
+        "apiKey": "",
+        "authDomain": "",
+        "databaseURL": "",
+        "storageBucket": ""
     }
 
 firebase = pyrebase.initialize_app(__firebase_config)
